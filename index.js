@@ -211,7 +211,7 @@ var songLibrary = [
 function numSongs(songLibrary){
     songs = 0;
     for (let i=0, i<songLibrary.length, i++){
-        songs += data[i].songsArray.length;
+        songs += songLibrary[i].songsArray.length;
     }
     return songs;
 }
