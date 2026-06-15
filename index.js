@@ -1,4 +1,4 @@
-var songLibrary = [
+const songLibrary = [
     {album: "Shane and Shane: The Worship Initiative",
     songsArray: ["God of Ages Past", "Seas of Crimson", "This I Believe (The Creed)", "Scandal of Grace", "Forever (We Sing Hallelujah)", "Jesus Loves Me", "Christ Be All Around Me", "You Make Me Brave", "Great Are You Lord", "Man of Sorrows"]
     },
@@ -208,7 +208,17 @@ var songLibrary = [
     }
 ];
 
-document.getElementById("pickfrom").textContent = (`Pick from ${songLibrary.length} albums!`);
+var songLibraryLength = songLibrary.length;
+var num_songs = numSongs(songLibrary);
+function numSongs(songLibrary){
+    data = songLibrary;
+    numSongs = 0
+    for (let i=0, i<data.length, i++){
+        numSongs += data[i].songsArray.length;
+    }
+    return numSongs;
+}
+document.getElementById("pickfrom").textContent = (`Pick from ${num_songs} songs and ${songLibraryLength} albums!`);
 
 var button = document.getElementById("button");
 
