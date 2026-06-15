@@ -219,7 +219,6 @@ document.getElementById("pickfrom").innerHTML = `Pick from ${numSongs(songLibrar
 
 var button = document.getElementById("button");
 
-var outputArray = [];
 function pickSong(songLibrary){
     var album_dict = choice(songLibrary);
     var album = album_dict.album;
@@ -227,8 +226,7 @@ function pickSong(songLibrary){
     if (song === album) {
         album += " - Single";
     }
-    outputArray = [song, album];
-    return outputArray;
+    return [song,album];
 }
 
 button.addEventListener("click", function(){
