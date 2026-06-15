@@ -240,9 +240,9 @@ function choice(array) {
 }
 
 function handleClick(songLibrary){
-    pickSong(songLibrary);
-    var song = outputArray[0];
-    var album = outputArray[1];
+    var songArray = pickSong(songLibrary);
+    var song = songArray[0];
+    var album = songArray[1];
     document.getElementById("song").textContent = song;
     document.getElementById("album").textContent = album;
     button.classList.add("clicked");
