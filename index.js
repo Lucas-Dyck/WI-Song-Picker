@@ -208,14 +208,15 @@ var songLibrary = [
     }
 ];
 
-function numSongs(songLibrary){
+function totalSongs(songLibrary){
     songs = 0;
-    for (let i=0, i<songLibrary.length, i++){
+    for (let i=0; i < songLibrary.length; i++){
         songs += songLibrary[i].songsArray.length;
     }
     return songs;
 }
-document.getElementById("pickfrom").innerHTML = `Pick from ${numSongs(songLibrary)} songs and ${songLibrary.length} albums!`;
+
+document.getElementById("pickfrom").textContent = (`Pick from ${totalSongs(songLibrary)} songs and ${songLibrary.length} albums!`);
 
 var button = document.getElementById("button");
 
@@ -226,7 +227,7 @@ function pickSong(songLibrary){
     if (song === album) {
         album += " - Single";
     }
-    return [song,album];
+    return [song, album];
 }
 
 button.addEventListener("click", function(){
