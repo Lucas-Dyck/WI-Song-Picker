@@ -1,4 +1,4 @@
-const songLibrary = [
+var songLibrary = [
     {album: "Shane and Shane: The Worship Initiative",
     songsArray: ["God of Ages Past", "Seas of Crimson", "This I Believe (The Creed)", "Scandal of Grace", "Forever (We Sing Hallelujah)", "Jesus Loves Me", "Christ Be All Around Me", "You Make Me Brave", "Great Are You Lord", "Man of Sorrows"]
     },
