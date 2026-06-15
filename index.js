@@ -211,9 +211,8 @@ const songLibrary = [
 var songLibraryLength = songLibrary.length;
 var num_songs = numSongs(songLibrary);
 function numSongs(songLibrary){
-    data = songLibrary;
     numSongs = 0
-    for (let i=0, i<data.length, i++){
+    for (let i=0, i<songLibrary.length, i++){
         numSongs += data[i].songsArray.length;
     }
     return numSongs;
