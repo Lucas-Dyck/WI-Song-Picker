@@ -251,3 +251,11 @@ function processURL(song){
     }
     return ("https://app.theworshipinitiative.com/songs/" + song + "/instrument/chart");
 }
+function randomButtonColour(){
+    var rgbCode = [];
+    for (let i=0, i<4, i++) {
+        var rgb = Math.floor(Math.random() * 255);
+        rgbCode.push(num);
+    }
+    rgbCode.join(",");
+}
