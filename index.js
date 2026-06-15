@@ -239,7 +239,6 @@ function handleClick(songLibrary){
     document.getElementById("song").textContent = song;
     document.getElementById("album").textContent = album;
     button.classList.add("clicked");
-    button.css("background-color", pickRandomColour());
     setTimeout(function(){button.classList.remove("clicked")}, 200);
     processedURL = processURL(song);
     document.querySelector("a").setAttribute("href", processedURL);
@@ -251,13 +250,4 @@ function processURL(song){
         song+="-8aeb1bd6-6af8-4a8c-90e7-b8dfe768eec3";
     }
     return ("https://app.theworshipinitiative.com/songs/" + song + "/instrument/chart");
-}
-function pickRandomColour(){
-    var rgbCode = [];
-    for (let i=0, i<4, i++) {
-        var rgb = Math.floor(Math.random() * 255);
-        rgbCode.push(num);
-    }
-    rgbCode.join(",");
-    return "rgb(" + rgbCode + ")";
 }
