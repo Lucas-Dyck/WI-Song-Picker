@@ -208,16 +208,14 @@ const songLibrary = [
     }
 ];
 
-var songLibraryLength = songLibrary.length;
-var num_songs = numSongs(songLibrary);
 function numSongs(songLibrary){
-    numSongs = 0
+    songs = 0;
     for (let i=0, i<songLibrary.length, i++){
-        numSongs += data[i].songsArray.length;
+        songs += data[i].songsArray.length;
     }
-    return numSongs;
+    return songs;
 }
-document.getElementById("pickfrom").textContent = (`Pick from ${num_songs} songs and ${songLibraryLength} albums!`);
+document.getElementById("pickfrom").textContent = (`Pick from ${numSongs(songLibrary)} songs and ${songLibrary.length} albums!`);
 
 var button = document.getElementById("button");
 
