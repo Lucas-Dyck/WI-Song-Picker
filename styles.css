@@ -17,7 +17,7 @@ body {
 	font-size: 1.7rem;
 }
 
-#title {
+h1 {
 	margin: 0px 0px 0px 30px;
 }
 div[id=header] {
