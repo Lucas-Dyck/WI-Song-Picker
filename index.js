@@ -251,7 +251,7 @@ function handleClick(songLibrary){
 } 
 
 function processURL(song){
-    song = song.toLowerCase().replaceAll(" ", "-").replaceAll("(", "-").replaceAll(")", "").replaceAll(",", "-").replaceAll(":", "-").replaceAll(/'/g, "-").replaceAll("--", "-");
+    song = song.toLowerCase().replaceAll(" ", "-").replaceAll("(", "-").replaceAll(")", "").replaceAll(",", "-").replaceAll(":", "-").replaceAll("'", "-").replaceAll("--", "-");
     if (song === "all-glory-be-to-christ") {
         song+="-8aeb1bd6-6af8-4a8c-90e7-b8dfe768eec3";
     }
