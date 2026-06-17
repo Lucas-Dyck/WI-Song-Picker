@@ -216,7 +216,7 @@ function totalSongs(songLibrary){
     return songs;
 }
 
-document.getElementById("pickfrom").textContent = (`Pick from ${totalSongs(songLibrary)} songs and ${songLibrary.length} albums!`);
+document.getElementById("pickfrom").textContent = (`Pick from ${totalSongs(songLibrary)} songs in ${songLibrary.length} albums!`);
 
 var button = document.getElementById("button");
 
