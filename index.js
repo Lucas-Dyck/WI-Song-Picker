@@ -124,7 +124,7 @@ var songLibrary = [
     },
 
     {album: "Psalms II",
-    songsArray: ["Psalm 46(Lord of Hosts)", "Psalm 45 (Fairest of All)", "Psalm 51 (Wisdom in The Secret Heart", "Psalm 139 (Far Too Wonderful)", "Psalm 98 (Sing Unto The Lord)", "Psalm 91 (On Eagles' Wings)", "Psalm 16 (Better Than Life)", "Take Over", "Psalm 27 (One Thing)", "Psalm 23 (Surely Goodness, Surely Mercy)", "Psalm 34 (Taste and See)"]
+    songsArray: ["Psalm 46(Lord of Hosts)", "Psalm 45 (Fairest of All)", "Psalm 51 (Wisdom in The Secret Heart)", "Psalm 139 (Far Too Wonderful)", "Psalm 98 (Sing Unto The Lord)", "Psalm 91 (On Eagles' Wings)", "Psalm 16 (Better Than Life)", "Take Over", "Psalm 27 (One Thing)", "Psalm 23 (Surely Goodness, Surely Mercy)", "Psalm 34 (Taste and See)"]
     },
 
     {album: "Psalms From the Well",
