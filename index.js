@@ -164,6 +164,9 @@ var songLibrary = [
     {album: "WI Lite",
         songsArray: ["Raise A Hallelujah (Lite)", "Peace (Lite)", "Bigger Than I Thought (Lite)", "Sinking Deep (Lite)", "Psalm 145 (Lite)", "Psalm 13 (Lite)", "The One You'll Find (Lite)", "Great Reward (Lite)", "Run"]
     },
+    {album: "Worship In the Word",
+        songsArray: ["First Things First (Matthew 6)", "Your Ways (Isaiah 55)", "Tell the Story (Psalm 8)", "Come and See (Psalm 66)", "Yes and Amen (Ephesians 1)", "You Know Everything (Psalm 139)", "Holy (1 Samuel 2:2)", "Take Heart (John 16:33)", "Wholly Yours (Ephesians 3:18-19)", "Oh We Love You (John 3:16)"]
+    },
 ];
 
 function totalSongs(songLibrary){
