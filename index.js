@@ -167,6 +167,9 @@ var songLibrary = [
     {album: "Worship In the Word",
         songsArray: ["First Things First (Matthew 6)", "Your Ways (Isaiah 55)", "Tell the Story (Psalm 8)", "Come and See (Psalm 66)", "Yes and Amen (Ephesians 1)", "You Know Everything (Psalm 139)", "Holy (1 Samuel 2:2)", "Take Heart (John 16:33)", "Wholly Yours (Ephesians 3:18-19)", "Oh We Love You (John 3:16)"]
     },
+    {album: "Worship In the Word 2",
+        songsArray: ["Infinite Love of Christ (Ephesians 3:18-19)", "Help Me Live In Step (Galatians 5:22-23)", "Sing Hallelujah (Psalm 103)", "Clap Your Hands (Psalm 47)", "I Delight In You (Psalm 1)", "Know You As You Are (Matthew 7:21-23)", "Your Amazing Grace (1 Timothy 1:15-16)", "Unto Him (Jude 1:24-25)", "Kind Like You (Ephesians 4:32)", "Fight Song (2 Chronicles 20:17)"]
+    },
 ];
 
 function totalSongs(songLibrary){
