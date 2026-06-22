@@ -161,6 +161,9 @@ var songLibrary = [
     {album: "We Sing To You, Jesus (Carols For Worship)",
         songsArray: ["Joy To The World", "O Come, O Come, Emmanuel", "Come Thou Long Expected Jesus", "O Holy Night", "Hark the Herald Angels Sing", "Angels We Have Heard On High", "O Come, All Ye Faithful", "Silent Night", "The First Noel", "Go Tell It On the Mountain"]
     },
+    {album: "WI Lite",
+        songsArray: ["Raise A Hallelujah (Lite)", "Peace (Lite)", "Bigger Than I Thought (Lite)", "Sinking Deep (Lite)", "Psalm 145 (Lite)", "Psalm 13 (Lite)", "The One You'll Find (Lite)", "Great Reward (Lite)", "Run"]
+    },
 ];
 
 function totalSongs(songLibrary){
