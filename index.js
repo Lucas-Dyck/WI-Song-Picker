@@ -63,7 +63,7 @@ var songLibrary = [
     songsArray: ["Behold The Lamb", "The Passion", "You Cannot Be Stopped", "His Heart Beats", "Jesus, Only Jesus", "Christ Our Hope In Life and Death", "My Victory", "Glorious Day (Living He Loved Me)", "Overcome", "Christ is Risen"]
     },
     {album: "The Worship Initiative Volume Twenty-One",
-    songsArray: ["There's A River", "Doxology/Amen", "Graves Into Gardens", "What A Friend We Have in Jesus", "Sing To Jesus", "Faithful To the End", "Hymn of Surrender", "I Surrender All (All I Am)", "There Is Nothing That Our God Can't Do", "The Blessing"]
+    songsArray: ["There's A River", "Doxology/Amen", "Graves Into Gardens", "What A Friend We Have in Jesus", "Sing To Jesus", "Faithful To the End", "Hymn of Surrender", "I Surrender All (All I Am)", "There's Nothing That Our God Can't Do", "The Blessing"]
     },
     {album: "The Worship Initiative Volume Twenty-Two",
     songsArray: ["Come Ye Sinners", "New Jerusalem", "Promises", "Nothing Without You", "Such An Awesome God", "At Your Name", "You Keep On Getting Better", "The Story I'll Tell", "Jesus, Firm Foundation","Crowns", "My Truest Praise"]
