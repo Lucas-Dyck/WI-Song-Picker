@@ -215,7 +215,13 @@ function handleClick(songLibrary){
 } 
 
 function processURL(song){
-    song = song.toLowerCase().replaceAll("/","-").replaceAll(" ", "-").replaceAll("(", "-").replaceAll(")", "").replaceAll(",", "-").replaceAll("[","-").replaceAll("]","-").replaceAll(":", "-").replaceAll("'", "-").replaceAll("--", "-");
+    const replaceArray = ["'", "/", "(", ")", "[", "]", ",", ":"];
+    for (char of song.split().toLowerCase()) {
+        if (replaceArray.contains(char) === true) {
+            char = "-";
+        }
+    }
+    song.replaceAll("--", "-")
     if (song === "all-glory-be-to-christ") {
         song+="-8aeb1bd6-6af8-4a8c-90e7-b8dfe768eec3";
     }
