@@ -215,8 +215,9 @@ function handleClick(songLibrary){
 } 
 
 function processURL(song){
-    const replaceArray = ["'", "/", "(", ")", "[", "]", ",", ":"];
-    for (char of song.split().toLowerCase()) {
+    song = song.split("").toLowerCase();
+    var replaceArray = ["'", "/", "(", ")", "[", "]", ",", ":"];
+    for (char of song) {
         if (replaceArray.contains(char) === true) {
             char = "-";
         }
