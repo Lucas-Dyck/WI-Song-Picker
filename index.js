@@ -213,15 +213,7 @@ function handleClick(songLibrary) {
 } 
 
 function processURL(song) {
-    song = song.toLowerCase().replaceAll(" ", "-");
-    song = song.replaceAll("[", "-");
-    song = song.replaceAll("]", "-");
-    song = song.replaceAll(",", "-");
-    song = song.replaceAll("(", "-");
-    song = song.replaceAll(")", "-");
-    song = song.replaceAll(":", "-");
-    song = song.replaceAll("'", "-");
-    song = song.replaceAll("--", "-");
+    song.toLowerCase().replace(/[-/:'()[\] ]/g, '-').replace(/-+/g, '-').replace(/^-+|-+$/g, '');
     if (song.slice(song.length) === "-") {
         song = song.replace(/.$/, ""); 
     }
