@@ -185,13 +185,15 @@ document.getElementById("pickfrom").textContent = (`Pick from ${totalSongs(songL
 var button = document.getElementById("button");
 
 function pickSong(songLibrary){
-    var album_dict = choice(songLibrary);
-    var album = album_dict.album;
+    var choice = choice(songLibrary);
+    var album = group.album;
     var song = choice(album_dict.songsArray);
     if (song === album) {
         album += " - Single";
     }
-    return [song, album];
+    var outputObject = {"song": song, "album": album}
+    
+    return outputObject;
 }
 
 button.addEventListener("click", function() {
@@ -204,14 +206,10 @@ function choice(array) {
 
 function handleClick(songLibrary) {
     var songArray = pickSong(songLibrary);
-    var song = songArray[0];
-    var album = songArray[1];
-    document.getElementById("song").textContent = song;
-    document.getElementById("album").textContent = album;
-    button.classList.add("clicked");
+    document.getElementById("song").textContent = outputObject.song;
+    document.getElementById("album").textContent = outputObject.album;
     setTimeout(function(){button.classList.remove("clicked")}, 200);
-    processedURL = processURL(song);
-    document.querySelector("a").setAttribute("href", processedURL);
+    document.querySelector("a").setAttribute("href", processURL(song));
 } 
 
 function processURL(song) {
