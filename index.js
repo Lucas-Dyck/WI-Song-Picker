@@ -223,9 +223,9 @@ function processURL(song){
         }
     }
     song = songSplit.join("");
-    song.replaceAll("--", "-")
+    song.replaceAll("--", "-");
     if (song === "all-glory-be-to-christ") {
         song+="-8aeb1bd6-6af8-4a8c-90e7-b8dfe768eec3";
     }
-    return ("https://app.theworshipinitiative.com/songs/" +  + "/instrument/chart");
+    return ("https://app.theworshipinitiative.com/songs/" + song + "/instrument/chart");
 }
