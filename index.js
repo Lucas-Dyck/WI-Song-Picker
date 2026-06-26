@@ -215,16 +215,17 @@ function handleClick(songLibrary){
 } 
 
 function processURL(song){
-    song = song.toLowerCase().split("");
+    var songSplit = song.toLowerCase().split("");
     var replaceArray = ["'", "/", "(", ")", "[", "]", ",", ":"];
-    for (char of song) {
+    for (char of songSplit) {
         if (replaceArray.includes(char) === true) {
             char = "-";
         }
     }
+    song = songSplit.join("");
     song.replaceAll("--", "-")
     if (song === "all-glory-be-to-christ") {
         song+="-8aeb1bd6-6af8-4a8c-90e7-b8dfe768eec3";
     }
-    return ("https://app.theworshipinitiative.com/songs/" + song + "/instrument/chart");
+    return ("https://app.theworshipinitiative.com/songs/" +  + "/instrument/chart");
 }
