@@ -184,6 +184,10 @@ document.getElementById("pickfrom").textContent = (`Pick from ${totalSongs(songL
 
 var button = document.getElementById("button");
 
+function choice(array) {
+    return array[Math.floor(Math.random() * array.length)];
+}
+
 function pickSong(songLibrary){
     var choice = choice(songLibrary);
     var album = group.album;
@@ -199,10 +203,6 @@ function pickSong(songLibrary){
 button.addEventListener("click", function() {
     handleClick(songLibrary);
 });
-
-function choice(array) {
-    return array[Math.floor(Math.random() * array.length)];
-}
 
 function handleClick(songLibrary) {
     var songArray = pickSong(songLibrary);
