@@ -194,7 +194,7 @@ function pickSong(songLibrary){
     return [song, album];
 }
 
-button.addEventListener("click", function(){
+button.addEventListener("click", function() {
     handleClick(songLibrary);
 });
 
@@ -202,7 +202,7 @@ function choice(array) {
     return array[Math.floor(Math.random() * array.length)];
 }
 
-function handleClick(songLibrary){
+function handleClick(songLibrary) {
     var songArray = pickSong(songLibrary);
     var song = songArray[0];
     var album = songArray[1];
@@ -214,15 +214,8 @@ function handleClick(songLibrary){
     document.querySelector("a").setAttribute("href", processedURL);
 } 
 
-function processURL(song){
-    var songSplit = song.toLowerCase().split("");
-    var replaceArray = ["'", "/", "(", ")", "[", "]", ",", ":"];
-    for (char of songSplit) {
-        if (replaceArray.includes(char) === true) {
-            char = "-";
-        }
-    }
-    song = songSplit.join("");
+function processURL(song) {
+    song.toLowerCase().replaceAll(/['/()[],:]/g, "-");    song = songSplit.join("");
     song.replaceAll("--", "-");
     if (song === "all-glory-be-to-christ") {
         song+="-8aeb1bd6-6af8-4a8c-90e7-b8dfe768eec3";
