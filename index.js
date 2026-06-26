@@ -224,7 +224,7 @@ function processURL(song) {
     song = song.replaceAll(":", "-");
     song = song.replaceAll("'", "-");
     song = song.replaceAll("--", "-");
-    if (song.slice(song.length) === "-" {
+    if (song.slice(song.length)) === "-" {
         song = song.replace(/.$/, ""); 
     }
     if (song === "all-glory-be-to-christ") {
