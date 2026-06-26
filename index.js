@@ -218,7 +218,7 @@ function processURL(song){
     song = song.toLowerCase().split("");
     var replaceArray = ["'", "/", "(", ")", "[", "]", ",", ":"];
     for (char of song) {
-        if (replaceArray.contains(char) === true) {
+        if (replaceArray.includes(char) === true) {
             char = "-";
         }
     }
