@@ -1,6 +1,6 @@
 import {songLibrary} from './library.js';
 function totalSongs(songLibrary){
-    songs = 0;
+    var songs = 0;
     for (let i=0; i < songLibrary.length; i++){
         songs += songLibrary[i].songsArray.length;
     }
