@@ -209,13 +209,13 @@ function handleClick(songLibrary) {
     document.getElementById("song").textContent = outputObject.song;
     document.getElementById("album").textContent = outputObject.album;
     setTimeout(function(){button.classList.remove("clicked")}, 200);
-    document.querySelector("a").setAttribute("href", processURL(song));
 } 
 
 function processURL(song) {
-    url = song.toLowerCase().replace(/[-/:'()[\] ]/g, '-').replace(/-+/g, '-').replace(/^-+|-+$/g, '');
-    if (url === "all-glory-be-to-christ") {
-        url += "-8aeb1bd6-6af8-4a8c-90e7-b8dfe768eec3";
+    song = song.replace(/[-/:'()[\] ]/g, '-').replace(/-+/g, '-').replace(/^-+|-+$/g, '').toLowerCase();
+    if (song === "all-glory-be-to-christ") {
+        song += "-8aeb1bd6-6af8-4a8c-90e7-b8dfe768eec3";
     }
-    return `https://app.theworshipinitiative.com/songs/${url}/instrument/chart`;
+    var url = `https://app.theworshipinitiative.com/songs/${song}/instrument/chart`;
+    document.querySelector("a").setAttribute("href", url);
 }
