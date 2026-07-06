@@ -205,10 +205,11 @@ button.addEventListener("click", function() {
 });
 
 function handleClick(songLibrary) {
-    var outputObject = pickSong(songLibrary);
-    document.getElementById("song").textContent = outputObject.song;
-    document.getElementById("album").textContent = outputObject.album;
+    var albumChoice = pickSong(songLibrary);
+    document.getElementById("song").textContent = albumChoice.song;
+    document.getElementById("album").textContent = albumChoice.album;
     setTimeout(function(){button.classList.remove("clicked")}, 200);
+    processURL(albumChoice.song);
 } 
 
 function processURL(song) {
