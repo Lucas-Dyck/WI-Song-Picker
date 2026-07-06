@@ -189,9 +189,9 @@ function choice(array) {
 }
 
 function pickSong(songLibrary){
-    var group = choice(songLibrary);
-    var album = group.album;
-    var song = choice(album_dict.songsArray);
+    var album_obj = choice(songLibrary);
+    var album = album_obj.album;
+    var song = choice(album_obj.songsArray);
     if (song === album) {
         album += " - Single";
     }
