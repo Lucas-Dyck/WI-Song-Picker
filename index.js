@@ -189,7 +189,7 @@ function choice(array) {
 }
 
 function pickSong(songLibrary){
-    var choice = choice(songLibrary);
+    var group = choice(songLibrary);
     var album = group.album;
     var song = choice(album_dict.songsArray);
     if (song === album) {
