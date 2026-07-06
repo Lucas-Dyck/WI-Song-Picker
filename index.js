@@ -214,7 +214,7 @@ function handleClick(songLibrary) {
 
 function processURL(song) {
     let processedSong = song
-      .replace(/[-\/:'()[\] ]/g, '-')
+      .replace(/[-\/:',()[\] ]/g, '-')
       .replace(/-+/g, '-')
       .replace(/^-+|-+$/g, '')
       .toLowerCase();
