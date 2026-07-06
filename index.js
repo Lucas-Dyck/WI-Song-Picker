@@ -205,7 +205,7 @@ button.addEventListener("click", function() {
 });
 
 function handleClick(songLibrary) {
-    var songArray = pickSong(songLibrary);
+    var outputObject = pickSong(songLibrary);
     document.getElementById("song").textContent = outputObject.song;
     document.getElementById("album").textContent = outputObject.album;
     setTimeout(function(){button.classList.remove("clicked")}, 200);
