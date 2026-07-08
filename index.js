@@ -48,6 +48,9 @@ function processURL(song) {
     if (processedSong === "all-glory-be-to-christ") {
         processedSong += "-8aeb1bd6-6af8-4a8c-90e7-b8dfe768eec3";
     }
+    if (processedSong === "there-s-a-river") {
+        processedSong += "-31a29457-cb2c-4538-a81b-d70431d5bac0";
+    }
     var url = `https://app.theworshipinitiative.com/songs/${processedSong}/instrument/chart`;
     document.querySelector("a").setAttribute("href", url);
 }
