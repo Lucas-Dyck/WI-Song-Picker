@@ -126,7 +126,7 @@ export const songLibrary = [
     songsArray: ["Yahweh (Psalm 84)", "More Precious Than Gold (Psalm 19)", "In His Hands (Psalm 31)", "Awake My Soul (Psalm 57)", "Never Stop Singing (Psalm 95)", "Bless the Lord (Psalm 103)", "For God Alone (Psalm 62)", "In This I Will Rejoice (Psalm 16)", "I Will Dwell (Psalm 84)"]
     },
     {album: "Last Words: A Good Friday Liturgy",
-    songsArray: ["The Last Words of Jesus", "Last Words (Tenebrae)", "XI Crucifixion: Jesus Is Nailed to the Cross", "Sing to Jesus", "Isaiah 53:4-8", "Beautiful Scandalous Night", "The Cross You Bear", "All Sufficient Reward", "The Due Reward (A Doxology)"]
+    songsArray: ["The Last Words of Jesus", "Last Words (Tenebrae)", "The Due Reward (A Doxology)"]
     },
     {album: "Psalms From the Well Volume 3",
     songsArray: ["Revive Us Again (Psalm 44)", "Save Me (Psalm 3)", "Oh My Soul, Bless The Lord (Psalm 103)"]
