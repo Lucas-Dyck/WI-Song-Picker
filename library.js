@@ -144,30 +144,30 @@ export const songLibrary = [
     songsArray: ["Bless God", "Son of Suffering", "I Don't Have Much",  "I've Witnessed It", "I Need Thee Every Hour", "Trust In God", "Thousand Hallelujahs"]
     },
     {album: "Worship Initiative Hymns Volume 2",
-    songsArray: ["Come Thou Fount of Every Blessing", "Turn Your Eyes Upon Jesus", "All Creatures of Our God and King", "Be Thou Vision", "To God Be the Glory", "How Great Thou Art", "Crown Him (Majesty)"]
+    songsArray: ["Come Thou Fount of Every Blessing", "Turn Your Eyes Upon Jesus", "All Creatures of Our God and King", "Be Thou My Vision", "To God Be the Glory", "How Great Thou Art", "Crown Him (Majesty)"]
     },
     {album: "Advent",
     songsArray: ["Let All Mortal Flesh Keep Silence"]
     },
     {album: "Advent No. 2",
-        songsArray: ["Savior of the Nations of Come"]
+    songsArray: ["Savior of the Nations of Come"]
     },
     {album: "All Glory Be To Christ",
-        songsArray: ["All Glory Be To Christ"]
+    songsArray: ["All Glory Be To Christ"]
     },
     {album: "Watermark Worship Channel",
-        songsArray: ["Only Christ", "You've Already Won (Live)", "In Christ Alone [Hymns]", "Is He Worthy", "All Sufficient Merit", "O  Praise The Name (Anástasis)", "Bless God", "Holy Forever", "Who Else"]
+    songsArray: ["Only Christ", "You've Already Won (Live)", "In Christ Alone [Hymns]", "Is He Worthy", "All Sufficient Merit", "O  Praise The Name (Anástasis)", "Bless God", "Holy Forever", "Who Else"]
     },
     {album: "We Sing To You, Jesus (Carols For Worship)",
-        songsArray: ["Joy To The World", "O Come, O Come, Emmanuel", "Come Thou Long Expected Jesus", "O Holy Night", "Hark the Herald Angels Sing", "Angels We Have Heard On High", "O Come, All Ye Faithful", "Silent Night", "The First Noel", "Go Tell It On the Mountain"]
+    songsArray: ["Joy To The World", "O Come, O Come, Emmanuel", "Come Thou Long Expected Jesus", "O Holy Night", "Hark the Herald Angels Sing", "Angels We Have Heard On High", "O Come, All Ye Faithful", "Silent Night", "The First Noel", "Go Tell It On the Mountain"]
     },
     {album: "WI Lite",
-        songsArray: ["Raise A Hallelujah (Lite)", "Peace (Lite)", "Bigger Than I Thought (Lite)", "Sinking Deep (Lite)", "Psalm 145 (Lite)", "Psalm 13 (Lite)", "The One You'll Find (Lite)", "Great Reward (Lite)", "Run"]
+    songsArray: ["Raise A Hallelujah (Lite)", "Peace (Lite)", "Bigger Than I Thought (Lite)", "Sinking Deep (Lite)", "Psalm 145 (Lite)", "Psalm 13 (Lite)", "The One You'll Find (Lite)", "Great Reward (Lite)", "Run"]
     },
     {album: "Worship In the Word",
-        songsArray: ["First Things First (Matthew 6)", "Your Ways (Isaiah 55)", "Tell the Story (Psalm 8)", "Come and See (Psalm 66)", "Yes and Amen (Ephesians 1)", "You Know Everything (Psalm 139)", "Holy (1 Samuel 2:2)", "Take Heart (John 16:33)", "Wholly Yours (Ephesians 3:18-19)", "Oh We Love You (John 3:16)"]
+    songsArray: ["First Things First (Matthew 6)", "Your Ways (Isaiah 55)", "Tell the Story (Psalm 8)", "Come and See (Psalm 66)", "Yes and Amen (Ephesians 1)", "You Know Everything (Psalm 139)", "Holy (1 Samuel 2:2)", "Take Heart (John 16:33)", "Wholly Yours (Ephesians 3:18-19)", "Oh We Love You (John 3:16)"]
     },
     {album: "Worship In the Word 2",
-        songsArray: ["Infinite Love of Christ (Ephesians 3:18-19)", "Help Me Live In Step (Galatians 5:22-26)", "Sing Hallelujah (Psalm 103)", "Clap Your Hands (Psalm 47)", "I Delight In You (Psalm 1)", "Know You As You Are (Matthew 7:21-23)", "Your Amazing Grace (1 Timothy 1:15-16)", "Unto Him (Jude 1:24-25)", "Kind Like You (Ephesians 4:32)", "Fight Song (2 Chronicles 20:17)"]
+    songsArray: ["Infinite Love of Christ (Ephesians 3:18-19)", "Help Me Live In Step (Galatians 5:22-26)", "Sing Hallelujah (Psalm 103)", "Clap Your Hands (Psalm 47)", "I Delight In You (Psalm 1)", "Know You As You Are (Matthew 7:21-23)", "Your Amazing Grace (1 Timothy 1:15-16)", "Unto Him (Jude 1:24-25)", "Kind Like You (Ephesians 4:32)", "Fight Song (2 Chronicles 20:17)"]
     },
 ];
