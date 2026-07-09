@@ -170,4 +170,12 @@ export const songLibrary = [
     {album: "Worship In the Word 2",
     songsArray: ["Infinite Love of Christ (Ephesians 3:18-19)", "Help Me Live In Step (Galatians 5:22-26)", "Sing Hallelujah (Psalm 103)", "Clap Your Hands (Psalm 47)", "I Delight In You (Psalm 1)", "Know You As You Are (Matthew 7:21-23)", "Your Amazing Grace (1 Timothy 1:15-16)", "Unto Him (Jude 1:24-25)", "Kind Like You (Ephesians 4:32)", "Fight Song (2 Chronicles 20:17)"]
     },
-];
+    {album: "Hymns Volume 1",
+     songsArray: ["In Christ Alone [Hymns]", "Come Thou Fount (Above All Else)", "There Is A Fountain (Full of Love)", "He Will Hold Me Fast", "Holy, Holy, Holy (We Bow Before Thee)", "My Worth Is Not In What I Own", "Give Me Jesus", "Tis So Sweet", "The Lord Is My Salvation"]
+    },
+    {album: "Hymns Live",
+     songsArray: ["In Christ Alone [Live]", "Come Thou Fount [Live]", "There Is A Fountain [Live]", "He Will Hold Me Fast [Live]", "Holy, Holy, Holy [Live]", "My Worth Is Not In What I Own [Live]", "Give Me Jesus [Live]", "Tis So Sweet [Live]", "The Lord Is My Salvation [Live]", "I Will Wait For You (Psalm 130) [Live]", "Amazing Grace (My Chains Are Gone) [Live]", "His Mercy Is More [Live]", "Is He Worthy [Live]"]
+    },
+    {album: "Hymns Volume 2",
+     songsArray: ["Oh Lord Almighty","All Hail The Power of Jesus Name", "Praise To the Lord (Joyful, Joyful)","Power of the Cross", "Be Thou My Vision (Lord You Are)","Crown Him With Many Crowns", "Turn Your Eyes Upon Jesus (Amazing Grace)","My Jesus I Love Thee", "Living Waters (As the Deer)", "Come Behold the Wondrous Mystery"]
+    }
