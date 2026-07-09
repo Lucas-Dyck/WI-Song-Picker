@@ -178,4 +178,5 @@ export const songLibrary = [
     },
     {album: "Hymns Volume 2",
      songsArray: ["Oh Lord Almighty","All Hail The Power of Jesus Name", "Praise To the Lord (Joyful, Joyful)","Power of the Cross", "Be Thou My Vision (Lord You Are)","Crown Him With Many Crowns", "Turn Your Eyes Upon Jesus (Amazing Grace)","My Jesus I Love Thee", "Living Waters (As the Deer)", "Come Behold the Wondrous Mystery"]
-    }
+    },
+]
