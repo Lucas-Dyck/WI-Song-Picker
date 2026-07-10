@@ -51,6 +51,9 @@ function processURL(song) {
     if (processedSong === "there-s-a-river") {
         processedSong += "-31a29457-cb2c-4538-a81b-d70431d5bac0";
     }
+    if (processedSong === "forever-we-sing-hallelujah") {
+        processedSong = "forever-we-sing-halleluia";
+    }
     var url = `https://app.theworshipinitiative.com/songs/${processedSong}/instrument/chart`;
     document.querySelector("a").setAttribute("href", url);
 }
