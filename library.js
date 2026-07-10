@@ -33,7 +33,7 @@ export const songLibrary = [
     songsArray: ["God Is Able", "Your Love Never Fails", "Your Grace Finds Me", "I Found It All", "Majesty", "Jesus Messiah", "I Will Rise", "God of Wonders", "You Are My King (Amazing Love)", "How Deep the Father's Love for Us"]
     },
     {album: "The Worship Initiative Volume Eleven",
-    songsArray: ["O Come To The Altar", "Open Up the Heavens", "Be Enthroned", "Good Good Father", "Holy Spirit", "No Longer Slaves", "At The Cross (Love Ran Red)", "Praise The King", "Your are My King (Amazing Love)", "Sovereign Over Us", "Trust You"]
+    songsArray: ["O Come To The Altar", "Open Up the Heavens", "Be Enthroned", "Good Good Father", "Holy Spirit", "No Longer Slaves", "At The Cross (Love Ran Red)", "Praise The King", "Sovereign Over Us", "Trust You"]
     },
     {album: "The Worship Initiative Volume Twelve", 
     songsArray: ["You're Worthy of It All", "Jesus We Love You", "Lion and The Lamb", "Alive", "Ever Be (Girls)", "Ever Be (Guys)", "What a Beautiful Name", "Once For All", "Come As You Are", "The Lord Our God", "Even So Come", "Great I Am", "O Praise The Name"]
