@@ -105,7 +105,7 @@ export const songLibrary = [
     songsArray: ["Holy: Song of Ages", "Lament", "Simple Pursuit", "Repent (What A Joy It Is)", "Rock of Ages", "More Like Jesus", "Leaning", "We Will Feast In the House of Zion", "Homecoming", "Because He Lives"]
     },  
     {album: "Sunday Setlist #1",
-    songsArray: ["There Is A Saviour", "Oh, But God", "I Speak Jesus", "To The Water", "Bigger Than I Thought", "Give Thanks", "No Height, No Depth", "Thy Mercy, My God", "Heart Abandoned", "Agnus Dei"]
+    songsArray: ["There Is A Savior", "Oh, But God", "I Speak Jesus", "To The Water", "Bigger Than I Thought", "Give Thanks", "No Height, No Depth", "Thy Mercy, My God", "Heart Abandoned", "Agnus Dei"]
     },
     {album: "Flourish",
     songsArray: ["Firm Foundation (He Won't)", "All Sufficient Merit", "Endless Alleluia(We Fall Down)", "Still", "You Deserve It All", "All Hail King Jesus", "You Deserve It All", "Closer", "Desert Places", "Uncomplicated", "Abide"]
