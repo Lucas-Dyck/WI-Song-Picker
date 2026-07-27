@@ -102,7 +102,7 @@ export const songLibrary = [
     songsArray: ["Come Unto Jesus", "I Set My Hope One Jesus", "God Of Every Grace", "Speak O Lord", "All Sufficient Merit", "The Lord Almighty Reigns", "Rejoice", "I Am Not My Own", "All My Boast Is In Jesus", "Remember Him"]
     },
     {album: "Behold: The Story",
-    songsArray: ["Holy: Song of Ages", "Lament", "Simple Pursuit", "Repent (What A Joy It Is)", "Rock of Ages", "More Like Jesus", "Leaning", "We Will Feast In the House of Zion", "Homecoming", "Because He Lives"]
+    songsArray: ["Holy (Song of Ages)", "Lament", "Simple Pursuit", "Repent (What A Joy It Is)", "Rock of Ages", "More Like Jesus", "Leaning", "We Will Feast In the House of Zion", "Homecoming", "Because He Lives"]
     },  
     {album: "Sunday Setlist #1",
     songsArray: ["There Is A Savior", "Oh, But God", "I Speak Jesus", "To The Water", "Bigger Than I Thought", "Give Thanks", "No Height, No Depth", "Thy Mercy, My God", "Heart Abandoned", "Agnus Dei"]
