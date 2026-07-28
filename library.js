@@ -24,7 +24,7 @@ export const songLibrary = [
     songsArray: ["You're Beautiful", "Hosanna", "Mighty to Save", "Glorify Thy Name", "Desert Song", "Holy and Anointed One", "Where Would I Be", "Everything is Different", "Everlasting God", "I Will Exalt You"]
     },
     {album: "The Worship Initiative Volume Eight", 
-    songsArray: ["The Stand", "Indescribable", "I Give You My Heart", "Nothing But The Blood", "No Sweeter Name", "You Never Let Go", "Enough", "Amazing Grace (My Chains are Gone)", "Alive Again", "Yearn"]
+    songsArray: ["The Stand", "Indescribable", "I Give You My Heart", "Nothing But The Blood", "No Sweeter Name", "You Never Let Go", "Enough", "Amazing Grace (My Chains Are Gone)", "Alive Again", "Yearn"]
     },
     {album: "The Worship Initiative Volume Nine",
     songsArray: ["Your Love Is Strong", "I'm Yours(Nothing But the Blood)", "Heart of Worship", "From The Inside Out", "Stronger", "That's How You Forgive", "Christ is Risen", "He is Exalted", "When the Stars Burn Down", "Your Name"]
