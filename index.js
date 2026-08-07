@@ -54,7 +54,7 @@ function processURL(song) {
     if (processedSong === "forever-we-sing-hallelujah") {
         processedSong = "forever-we-sing-halleluia";
     }
-    if (processedSong === "heart-of-god) {
+    if (processedSong === "heart-of-god") {
         processedSong += "-7a2a9346-717e-4ea1-88bc-7929bb275c74";
     }
     var url = `https://app.theworshipinitiative.com/songs/${processedSong}/instrument/chart`;
