@@ -13,12 +13,8 @@ document.getElementById("pickfrom").textContent = (`Pick from ${totalSongs(songL
 
 var button = document.getElementById("button");
 
-function choice(array) {
-    return array[Math.floor(Math.random() * array.length)];
-}
-
 function pickSong(songLibrary){
-    var album_obj = choice(songLibrary);
+    var album_obj = songLibrary[Math.floor(Math.random() * songLibrary.length)];
     var album = album_obj.album;
     var song = choice(album_obj.songsArray);
     if (song === album) {
