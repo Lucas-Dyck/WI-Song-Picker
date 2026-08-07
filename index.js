@@ -28,6 +28,7 @@ button.addEventListener("click", function() {
 });
 
 var choice = pickSong(songLibrary);
+console.log("DEBUG choice object:", choice);
 
 function handleClick(choice) {
     document.getElementById("song").textContent = choice.song;
