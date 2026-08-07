@@ -20,15 +20,15 @@ function pickSong(songLibrary){
     if (song === album) {
         album += " - Single";
     }
-    var outputObject = {song: song, album: album}
-    
-    return outputObject;
+    return {song: song, album: album};
 }
 
 button.addEventListener("click", function() {
     handleClick(songLibrary);
 });
+
 var choice = pickSong(songLibrary);
+
 function handleClick(choice) {
     document.getElementById("song").textContent = choice.song;
     document.getElementById("album").textContent = choice.album;
@@ -48,9 +48,9 @@ function processURL(choice) {
         case "forever-we-sing-hallelujah":
             processedSong = "forever-we-sing-halleluia";
             break;
-        case "heart--god":
-                processedSong += "-7a2a9346-717e-4ea1-88bc-7929bb275c74";
-                break;
+        case "heart-of-god":
+            processedSong += "-7a2a9346-717e-4ea1-88bc-7929bb275c74";
+            break;
     }
     if (choice.song === "Angels We Have Heard On High" && choice.album === "We Sing To You, Jesus (Carols For Worship)") {
         processedSong =+ "-1bc7c9c0-6aa7-4ca5-b0c2-ce235d4082be";
