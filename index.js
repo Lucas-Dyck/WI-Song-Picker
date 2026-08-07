@@ -1,10 +1,12 @@
 import {songLibrary} from './library.js';
-function totalSongs(songLibrary){
-    let numSongs = 0;
-    for (let object of songLibrary){
+function totalSongs(songLibrary) {
+    let songs = 0; 
+    
+    for (let object of songLibrary) { 
         songs += object.songsArray.length;
     }
-    return numSongs;
+    
+    return songs;
 }
 
 document.getElementById("pickfrom").textContent = (`Pick from ${totalSongs(songLibrary)} songs in ${songLibrary.length} albums!`);
@@ -54,7 +56,7 @@ function processURL(albumChoice) {
         case "forever-we-sing-hallelujah":
             processedSong = "forever-we-sing-halleluia";
             break;
-        case "heart-of-god":
+        case "heart--god":
                 processedSong += "-7a2a9346-717e-4ea1-88bc-7929bb275c74";
                 break;
     }
