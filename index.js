@@ -1,4 +1,5 @@
 import {songLibrary} from './library.js';
+var choice = pickSong(songLibrary);
 function totalSongs(songLibrary) {
     let songs = 0; 
     
@@ -27,9 +28,6 @@ button.addEventListener("click", function() {
     handleClick(songLibrary);
 });
 
-var choice = pickSong(songLibrary);
-console.log("DEBUG choice object:", choice);
-
 function handleClick(choice) {
     document.getElementById("song").textContent = choice.song;
     document.getElementById("album").textContent = choice.album;
@@ -38,7 +36,7 @@ function handleClick(choice) {
 } 
 
 function processURL(choice) {
-    let processedSong = choice.song.replace(/[-\/:',()[\] ]/g, '-').replace(/-+/g, '-').replace(/^-+|-+$/g, '').toLowerCase();
+    var processedSong = (choice.song).replace(/[-\/:',()[\] ]/g, '-').replace(/-+/g, '-').replace(/^-+|-+$/g, '').toLowerCase();
     switch (processedSong) {
         case "all-glory-be-to-christ":
             processedSong += "-8aeb1bd6-6af8-4a8c-90e7-b8dfe768eec3";
