@@ -1,10 +1,10 @@
 import {songLibrary} from './library.js';
 function totalSongs(songLibrary){
-    var songs = 0;
-    for (let i=0; i < songLibrary.length; i++){
-        songs += songLibrary[i].songsArray.length;
+    var numSongs = 0;
+    for (object of songLibrary){
+        songs += object.songsArray.length;
     }
-    return songs;
+    return numSongs;
 }
 
 document.getElementById("pickfrom").textContent = (`Pick from ${totalSongs(songLibrary)} songs in ${songLibrary.length} albums!`);
