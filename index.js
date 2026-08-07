@@ -30,6 +30,7 @@ function handleClick(songLibrary) {
     var choice = pickSong(songLibrary);
     document.getElementById("song").textContent = choice.song;
     document.getElementById("album").textContent = choice.album;
+    console.log(`{song: ${choice.song}, album: ${choice.album}`);
     processURL(choice);
     
     function processURL(choice) {
