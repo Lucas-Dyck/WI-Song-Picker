@@ -21,9 +21,8 @@ function pickSong(songLibrary){
         album += " - Single";
     }
     return {song: song, album: album};
-    console.log({song: song, album: album});
 }
-
+console.log(choice);
 button.addEventListener("click", function() {
     handleClick(choice);
 });
