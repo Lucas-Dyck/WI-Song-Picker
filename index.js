@@ -1,5 +1,4 @@
 import {songLibrary} from './library.js';
-var choice = pickSong(songLibrary);
 function totalSongs(songLibrary) {
     let songs = 0; 
     
@@ -22,11 +21,14 @@ function pickSong(songLibrary){
         album += " - Single";
     }
     return {song: song, album: album};
+    console.log({song: song, album: album});
 }
 
 button.addEventListener("click", function() {
     handleClick(choice);
 });
+
+var choice = pickSong(songLibrary);
 
 function handleClick(choice) {
     document.getElementById("song").textContent = choice.song;
