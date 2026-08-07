@@ -22,7 +22,7 @@ function pickSong(songLibrary){
     if (song === album) {
         album += " - Single";
     }
-    var outputObject = {"song": song, "album": album}
+    var outputObject = {song: song, album: album}
     
     return outputObject;
 }
