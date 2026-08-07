@@ -20,7 +20,7 @@ function pickSong(songLibrary){
     if (song === album) {
         album += " - Single";
     }
-    return {song: song, album: album};
+    return {song: song, album: album, [Symbol.toStringTag]: "Song Choice"};
 }
 button.addEventListener("click", function() {
     handleClick(songLibrary);
