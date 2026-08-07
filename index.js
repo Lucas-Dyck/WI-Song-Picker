@@ -32,16 +32,16 @@ function pickSong(songLibrary){
 button.addEventListener("click", function() {
     handleClick(songLibrary);
 });
-var albumChoice = pickSong(songLibrary);
-function handleClick(albumChoice) {
-    document.getElementById("song").textContent = albumChoice.song;
-    document.getElementById("album").textContent = albumChoice.album;
+var choice = pickSong(songLibrary);
+function handleClick(choice) {
+    document.getElementById("song").textContent = choice.song;
+    document.getElementById("album").textContent = choice.album;
     setTimeout(function(){button.classList.remove("clicked")}, 200);
-    processURL(albumChoice);
+    processURL(choice);
 } 
 
-function processURL(albumChoice) {
-    let processedSong = albumChoice.song.replace(/[-\/:',()[\] ]/g, '-').replace(/-+/g, '-').replace(/^-+|-+$/g, '').toLowerCase();
+function processURL(choice) {
+    let processedSong = choice.song.replace(/[-\/:',()[\] ]/g, '-').replace(/-+/g, '-').replace(/^-+|-+$/g, '').toLowerCase();
     switch (processedSong) {
         case "all-glory-be-to-christ":
             processedSong += "-8aeb1bd6-6af8-4a8c-90e7-b8dfe768eec3";
@@ -56,7 +56,7 @@ function processURL(albumChoice) {
                 processedSong += "-7a2a9346-717e-4ea1-88bc-7929bb275c74";
                 break;
     }
-    if (albumChoice.song === "Angels We Have Heard On High" && albumChoice.album === "We Sing To You, Jesus (Carols For Worship)") {
+    if (choice.song === "Angels We Have Heard On High" && choice.album === "We Sing To You, Jesus (Carols For Worship)") {
         processedSong =+ "-1bc7c9c0-6aa7-4ca5-b0c2-ce235d4082be";
     }
     var url = `https://app.theworshipinitiative.com/songs/${processedSong}/instrument/tutorials#song`;
