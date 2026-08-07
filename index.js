@@ -25,7 +25,7 @@ function pickSong(songLibrary){
 }
 
 button.addEventListener("click", function() {
-    handleClick(songLibrary);
+    handleClick(choice);
 });
 
 function handleClick(choice) {
