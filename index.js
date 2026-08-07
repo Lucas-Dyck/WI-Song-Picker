@@ -31,7 +31,6 @@ button.addEventListener("click", function() {
 function handleClick(choice) {
     document.getElementById("song").textContent = choice.song;
     document.getElementById("album").textContent = choice.album;
-    setTimeout(function(){button.classList.remove("clicked")}, 200);
     processURL(choice);
 } 
 
