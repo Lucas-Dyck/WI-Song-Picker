@@ -41,11 +41,7 @@ function handleClick(albumChoice) {
 } 
 
 function processURL(albumChoice) {
-    let processedSong = albumChoice.song
-      .replace(/[-\/:',()[\] ]/g, '-')
-      .replace(/-+/g, '-')
-      .replace(/^-+|-+$/g, '')
-      .toLowerCase();
+    let processedSong = albumChoice.song.replace(/[-\/:',()[\] ]/g, '-').replace(/-+/g, '-').replace(/^-+|-+$/g, '').toLowerCase();
     switch (processedSong) {
         case "all-glory-be-to-christ":
             processedSong += "-8aeb1bd6-6af8-4a8c-90e7-b8dfe768eec3";
