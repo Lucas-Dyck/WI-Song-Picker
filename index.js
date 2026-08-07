@@ -16,7 +16,7 @@ var button = document.getElementById("button");
 function pickSong(songLibrary){
     var album_obj = songLibrary[Math.floor(Math.random() * songLibrary.length)];
     var album = album_obj.album;
-    var song = choice(album_obj.songsArray);
+    var song = album_obj.songsArray[Math.floor(Math.random() * album_obj.songsArray.length)];
     if (song === album) {
         album += " - Single";
     }
