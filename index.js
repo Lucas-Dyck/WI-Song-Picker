@@ -37,7 +37,7 @@ function handleClick(albumChoice) {
     document.getElementById("song").textContent = albumChoice.song;
     document.getElementById("album").textContent = albumChoice.album;
     setTimeout(function(){button.classList.remove("clicked")}, 200);
-    processURL(albumChoice.song);
+    processURL(albumChoice);
 } 
 
 function processURL(albumChoice) {
