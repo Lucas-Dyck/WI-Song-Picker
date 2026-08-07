@@ -30,32 +30,36 @@ function pickSong(songLibrary){
 button.addEventListener("click", function() {
     handleClick(songLibrary);
 });
-
-function handleClick(songLibrary) {
-    var albumChoice = pickSong(songLibrary);
+var albumChoice = pickSong(songLibrary);
+function handleClick(albumChoice) {
     document.getElementById("song").textContent = albumChoice.song;
     document.getElementById("album").textContent = albumChoice.album;
     setTimeout(function(){button.classList.remove("clicked")}, 200);
     processURL(albumChoice.song);
 } 
 
-function processURL(song) {
-    let processedSong = song
+function processURL(albumChoice) {
+    let processedSong = albumChoice.song
       .replace(/[-\/:',()[\] ]/g, '-')
       .replace(/-+/g, '-')
       .replace(/^-+|-+$/g, '')
       .toLowerCase();
-    if (processedSong === "all-glory-be-to-christ") {
-        processedSong += "-8aeb1bd6-6af8-4a8c-90e7-b8dfe768eec3";
+    switch (processedSong) {
+        case "all-glory-be-to-christ":
+            processedSong += "-8aeb1bd6-6af8-4a8c-90e7-b8dfe768eec3";
+            break;
+        case "there-s-a-river":
+            processedSong += "-31a29457-cb2c-4538-a81b-d70431d5bac0";
+            break;
+        case "forever-we-sing-hallelujah":
+            processedSong = "forever-we-sing-halleluia";
+            break;
+        case "heart-of-god":
+                processedSong += "-7a2a9346-717e-4ea1-88bc-7929bb275c74";
+                break;
     }
-    if (processedSong === "there-s-a-river") {
-        processedSong += "-31a29457-cb2c-4538-a81b-d70431d5bac0";
-    }
-    if (processedSong === "forever-we-sing-hallelujah") {
-        processedSong = "forever-we-sing-halleluia";
-    }
-    if (processedSong === "heart-of-god") {
-        processedSong += "-7a2a9346-717e-4ea1-88bc-7929bb275c74";
+    if (albumChoice.song === "Angels We Have Heard On High" && albumChoice.album === "We Sing To You, Jesus (Carols For Worship)") {
+        processedSong =+ "-1bc7c9c0-6aa7-4ca5-b0c2-ce235d4082be";
     }
     var url = `https://app.theworshipinitiative.com/songs/${processedSong}/instrument/tutorials#song`;
     document.querySelector("a").setAttribute("href", url);
