@@ -138,7 +138,7 @@ export const songLibrary = [
     songsArray: ["Just As I Am", "Rock of Ages", "Oh Love That Will Not Let Me Go", "The King of Love My Shepherd Is", "Fairest Lord Jesus", "Breathe On Me Breath of God", "This is My Father's World", "O For A Thousand Tongues To Sing"]
     },
     {album: "Sunday Setlist #4",
-    songsArray: ["The Lord's Prayer (It's Yours)", "Gratitude", "Ancient Gates", "Gloria Patri", "Back to Life", "Only King Forever", "Worthy", "Be Glad", "Egypt", "My King Forever"]
+    songsArray: ["The Lord's Prayer (It's Yours) - Male", "The Lord's Prayer (It's Yours) - Female", "Gratitude", "Ancient Gates", "Gloria Patri", "Back to Life", "Only King Forever", "Worthy", "Be Glad", "Egypt", "My King Forever"]
     },
     {album: "Acoustic Worship",
     songsArray: ["Bless God", "Son of Suffering", "I Don't Have Much",  "I've Witnessed It", "I Need Thee Every Hour", "Trust In God", "Thousand Hallelujahs"]
