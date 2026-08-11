@@ -50,8 +50,11 @@ function handleClick(songLibrary) {
                 break;
             }
             if (choice.song === "Angels We Have Heard On High" && choice.album === "We Sing To You, Jesus (Carols For Worship)") {
-                processedSong =+ "-1bc7c9c0-6aa7-4ca5-b0c2-ce235d4082be";
+                processedSong += "-1bc7c9c0-6aa7-4ca5-b0c2-ce235d4082be";
                 }
+            if (choice.song === "How Great Thou Art" && choice.album === "Worship Initiative Hymns Volume 2") {
+                processedSong += "-edde77a4-580b-4f07-ad00-0abc3f42f5c2";
+            }
             var url = `https://app.theworshipinitiative.com/songs/${processedSong}/instrument/tutorials#song`;
         document.querySelector("a").setAttribute("href", url);
     }
