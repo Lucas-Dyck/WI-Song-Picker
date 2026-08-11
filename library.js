@@ -18,7 +18,7 @@ export const songLibrary = [
     songsArray: ["Cornerstone","Reign in Us", "Cannons", "Though You Slay Me", "Let My Words Be Few", "I Am Set Free", "Give Us Clean Hands", "Jesus Paid It All", "Your Great Name", "The Wonderful Cross"]
     },  
     {album: "The Worship Initiative Volume Six",
-    songsArray: ["Because He Lives", "Now and Always", "Revelation Song", "Great is Thy Faithfulness", "The Cross Stands", "Marvellous Light", "Forever(Sing Praise)", "One Thing Remains", "Lead Me to the Cross", "Your Grace is Enough"]
+    songsArray: ["Because He Lives", "Now and Always", "Revelation Song", "Great is Thy Faithfulness", "The Cross Stands", "Marvelous Light", "Forever(Sing Praise)", "One Thing Remains", "Lead Me to the Cross", "Your Grace is Enough"]
     },
     {album: "The Worship Initiative Volume Seven",
     songsArray: ["You're Beautiful", "Hosanna", "Mighty to Save", "Glorify Thy Name", "Desert Song", "Holy and Anointed One", "Where Would I Be", "Everything is Different", "Everlasting God", "I Will Exalt You"]
