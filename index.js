@@ -48,6 +48,9 @@ function handleClick(songLibrary) {
             case "heart-of-god":
                 processedSong += "-7a2a9346-717e-4ea1-88bc-7929bb275c74";
                 break;
+            case "the-way-new-horizon":
+                processedSong += "-bf28cd70-1a81-46ff-b3cf-9d4f8859358b";
+                break;
             }
             if (choice.song === "Angels We Have Heard On High" && choice.album === "We Sing To You, Jesus (Carols For Worship)") {
                 processedSong += "-1bc7c9c0-6aa7-4ca5-b0c2-ce235d4082be";
