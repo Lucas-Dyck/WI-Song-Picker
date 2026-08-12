@@ -51,6 +51,9 @@ function handleClick(songLibrary) {
             case "the-way-new-horizon":
                 processedSong += "-bf28cd70-1a81-46ff-b3cf-9d4f8859358b";
                 break;
+            case "when-the-stars-burn-down":
+                processedSong += "-blessing-and-honor";
+                break;
             }
             if (choice.song === "Angels We Have Heard On High" && choice.album === "We Sing To You, Jesus (Carols For Worship)") {
                 processedSong += "-1bc7c9c0-6aa7-4ca5-b0c2-ce235d4082be";
