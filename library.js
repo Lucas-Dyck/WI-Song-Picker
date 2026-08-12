@@ -119,7 +119,7 @@ export const songLibrary = [
     {album: "The Worship initiative Christmas Volume 1",
     songsArray: ["Little Drummer Boy", "First Noel", "O Come O Come Emmanuel", "Love Comes Down", "Angels We Have Heard On High", "Joy to the World", "Go Tell It On the Mountain", "Silent Night", "Oh Holy Night", "O Come All Ye Faithful"]
     },
-    {album: "The Worship Initiative Christmas Volume",
+    {album: "The Worship Initiative Christmas Volume 3",
     songsArray: ["O Come, O Come, Emmanuel",  "Sing We The Song of Emmanuel", "O Holy Night", "The First Noel", "Little Drummer Boy"]
     },
     {album: "Psalms from the Well Deluxe Edition",
