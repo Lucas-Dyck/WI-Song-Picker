@@ -64,6 +64,9 @@ function handleClick(songLibrary) {
             if (choice.song === "All Hail King Jesus" && choice.album === "The Worship Initiative Volume 18") {
                 processedSong += "-aa0a8bbf-6497-479d-bc25-5829a942d6bf";
             }
+            if (choice.song === "Is He Worthy" && choice.album === "Watermark Worship Channel") {
+                processedSong += "-a716d25a-985d-4e88-9bda-8edb35429be6";
+            }
             var url = `https://app.theworshipinitiative.com/songs/${processedSong}/instrument/tutorials#song`;
         document.querySelector("a").setAttribute("href", url);
     }
