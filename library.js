@@ -120,7 +120,7 @@ export const songLibrary = [
     songsArray: ["Little Drummer Boy", "First Noel", "O Come O Come Emmanuel (Vol. 1)", "Love Comes Down", "Angels We Have Heard On High", "Joy to the World", "Go Tell It On the Mountain", "Silent Night", "Oh Holy Night", "O Come All Ye Faithful"]
     },
     {album: "The Worship Initiative Christmas Volume 3",
-    songsArray: ["O Come, O Come, Emmanuel (Vol. 3)",  "Sing We The Song of Emmanuel", "O Holy Night (Vol. 3)", "The First Noel", "Little Drummer Boy"]
+    songsArray: ["O Come, O Come, Emmanuel (Vol. 3)",  "Sing We The Song of Emmanuel (Vol. 3)", "O Holy Night (Vol. 3)", "The First Noel (Vol. 3)", "Little Drummer Boy (Vol. 3)"]
     },
     {album: "Psalms from the Well Deluxe Edition",
     songsArray: ["Yahweh (Psalm 84)", "More Precious Than Gold (Psalm 19)", "In His Hands (Psalm 31)", "Awake My Soul (Psalm 57)", "Never Stop Singing (Psalm 95)", "Bless the Lord (Psalm 103)", "For God Alone (Psalm 62)", "In This I Will Rejoice (Psalm 16)", "I Will Dwell (Psalm 84)"]
