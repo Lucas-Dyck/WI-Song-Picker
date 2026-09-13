@@ -174,7 +174,7 @@ export const songLibrary = [
      songsArray: ["In Christ Alone [Hymns]", "Come Thou Fount (Above All Else)", "There Is A Fountain (Full of Love)", "He Will Hold Me Fast", "Holy, Holy, Holy (We Bow Before Thee)", "My Worth Is Not In What I Own", "Give Me Jesus", "Tis So Sweet", "The Lord Is My Salvation"]
     },
     {album: "Hymns Live",
-     songsArray: ["In Christ Alone [Live]", "Come Thou Fount [Live]", "There Is A Fountain [Live]", "He Will Hold Me Fast [Live]", "Holy, Holy, Holy [Live]", "My Worth Is Not In What I Own [Live]", "Give Me Jesus [Live]", "Tis So Sweet [Live]", "The Lord Is My Salvation [Live]", "I Will Wait For You (Psalm 130) [Live]", "Amazing Grace (My Chains Are Gone) [Live]", "His Mercy Is More [Live]", "Is He Worthy [Live]"]
+     songsArray: ["In Christ Alone [Live]", "Come Thou Fount [Live]", "There Is A Fountain [Live]", "He Will Hold Me Fast [Live]", "Holy, Holy, Holy [Live]", "My Worth Is Not In What I Own [Live]", "Tis So Sweet [Live]", "The Lord Is My Salvation [Live]", "I Will Wait For You (Psalm 130) [Live]", "Amazing Grace (My Chains Are Gone) [Live]", "His Mercy Is More [Live]", "Is He Worthy [Live]"]
     },
     {album: "Hymns Volume 2",
      songsArray: ["Oh Lord Almighty","All Hail The Power of Jesus Name", "Praise To the Lord (Joyful, Joyful)","Power of the Cross", "Be Thou My Vision (Lord You Are)","Crown Him With Many Crowns", "Turn Your Eyes Upon Jesus (Amazing Grace)","My Jesus I Love Thee", "Living Waters (As the Deer)", "Come Behold the Wondrous Mystery"]
