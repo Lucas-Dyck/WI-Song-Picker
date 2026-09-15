@@ -57,7 +57,7 @@ div[id=header] {
 
 button {
 	padding:10px;
-	color: rgb(11, 11, 36);
+	color: rgb(150,109,51);
 	font-family: Avenir, sans-serif;
 	font-weight: 700;
 	font-size:1.5rem;
@@ -78,11 +78,10 @@ button:hover {
 }
 
 button:active {
-	border: 2px solid white;
-	background-color: rgb(11, 11, 36);
+	border: 5px solid gold;
 	color: white;
 	box-sizing: border-box;
-	transform: scale(0.95);
+	transform: scale(1.08);
 	transition: 0.1s;
 	box-shadow: 1px 1px 8px white;
 }
