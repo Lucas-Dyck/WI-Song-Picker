@@ -9,7 +9,7 @@ body {
 
 #hero {
 	margin: 190px 0px 100px 50px;
-	display: gold;
+	display: rgb(150,109,51);
 }
 
 #hero>div {
@@ -30,7 +30,7 @@ div[id=header] {
 	top:0;
 	color: rgb(gold);
 	margin: 5px;
-	border: 3px solid gold;
+	border: 3px solid rgb(150,109,51);
 	border-radius: 10px;
 	font-family: 'Gill Sans', sans-serif;
 }
