@@ -3,13 +3,13 @@ body {
 	margin-top:150px;
 	align-items: center;
 	font-family: Avenir, sans-serif;
-    background-color: rgb(11, 11, 36);
-    color:white;
+    background-color: white;
+    color:gold;
 }
 
 #hero {
 	margin: 190px 0px 100px 50px;
-	display: flex;
+	display: gold;
 }
 
 #hero>div {
@@ -23,12 +23,15 @@ h1 {
 div[id=header] {
 	display: flex;
 	align-items: center;
-	background-color: rgb(242, 245, 255);
+	background-color: white;
 	height: 100px;
 	width:100%;
 	position: absolute;
 	top:0;
-	color: rgb(11, 11, 36);
+	color: rgb(gold);
+	margin: 5px;
+	border: 3px solid gold;
+	border-radius: 10px;
 	font-family: 'Gill Sans', sans-serif;
 }
 
@@ -120,7 +123,7 @@ button:active {
 	margin-left: 50px;
 }
 #display {
-	border: 3px solid white;
+	border: 3px solid gold;
 	padding: 50px;
 	margin: 50px;
 	border-radius: 50px;
