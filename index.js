@@ -36,33 +36,24 @@ function handleClick(songLibrary) {
     function processURL(choice) {
         let processedSong = choice.song.replace(/[-\/:',()[\] ]/g, '-').replace(/-+/g, '-').replace(/^-+|-+$/g, '').toLowerCase();
         switch (processedSong) {
-            case "there-s-a-river":
-                processedSong += "-31a29457-cb2c-4538-a81b-d70431d5bac0";
-                break;
             case "forever-we-sing-hallelujah":
                 processedSong = "forever-we-sing-halleluia";
-                break;
-            case "heart-of-god":
-                processedSong += "-7a2a9346-717e-4ea1-88bc-7929bb275c74";
-                break;
-            case "the-way-new-horizon":
-                processedSong += "-bf28cd70-1a81-46ff-b3cf-9d4f8859358b";
                 break;
             case "when-the-stars-burn-down":
                 processedSong += "-blessing-and-honor";
                 break;
             }
             if (choice.song === "Angels We Have Heard On High" && choice.album === "We Sing To You, Jesus (Carols For Worship)") {
-                processedSong += "-1bc7c9c0-6aa7-4ca5-b0c2-ce235d4082be";
+                processedSong += "-we-sing-to-you-jesus";
                 }
             if (choice.song === "How Great Thou Art" && choice.album === "The Worship Initiative Hymns Volume 2") {
-                processedSong += "-edde77a4-580b-4f07-ad00-0abc3f42f5c2";
+                processedSong += "-twi-hymns-2";
             }
             if (choice.song === "All Hail King Jesus" && choice.album === "The Worship Initiative Volume 18") {
-                processedSong += "-aa0a8bbf-6497-479d-bc25-5829a942d6bf";
+                processedSong += "-vol-18";
             }
             if (choice.song === "O Holy Night" && choice.album === "We Sing to You, Jesus (Carols for Worship)") {
-                processedSong += "-a716d25a-985d-4e88-9bda-8edb35429be6";
+                processedSong += "-we-sing-to-you-jesus";
             }
             var url = `https://psallo.theworshipinitiative.com/home/songs/${processedSong}/chords`;
         document.querySelector("a").setAttribute("href", url);
