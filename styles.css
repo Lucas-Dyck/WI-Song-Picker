@@ -79,7 +79,7 @@ button:hover {
 
 button:active {
 	border: 5px solid gold;
-	color: white;
+	color: rgb(150,109,51);
 	box-sizing: border-box;
 	transform: scale(1.08);
 	transition: 0.1s;
@@ -102,19 +102,6 @@ button:active {
 	color: rgb(150,109,51);
 	padding-left: 50px;
 	font-size: 1.2rem;
-}
-#button {
-	background-color: rgb(59, 113, 39);
-	color:white;
-}
-#button:active {
-	border: 2px solid white;
-	background-color: rgb(68, 17, 11);
-	color: white;
-	box-sizing: border-box;
-	transform: scale(0.95);
-	transition: 0.1s;
-	box-shadow: 1px 1px 8px white;
 }
 #button-div{
 	margin-left: 50px;
