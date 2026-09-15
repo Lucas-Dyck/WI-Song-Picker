@@ -36,9 +36,6 @@ function handleClick(songLibrary) {
     function processURL(choice) {
         let processedSong = choice.song.replace(/[-\/:',()[\] ]/g, '-').replace(/-+/g, '-').replace(/^-+|-+$/g, '').toLowerCase();
         switch (processedSong) {
-            case "all-glory-be-to-christ":
-                processedSong += "-8aeb1bd6-6af8-4a8c-90e7-b8dfe768eec3";
-                break;
             case "there-s-a-river":
                 processedSong += "-31a29457-cb2c-4538-a81b-d70431d5bac0";
                 break;
