@@ -67,7 +67,7 @@ function handleClick(songLibrary) {
             if (choice.song === "O Holy Night" && choice.album === "We Sing to You, Jesus (Carols for Worship)") {
                 processedSong += "-a716d25a-985d-4e88-9bda-8edb35429be6";
             }
-            var url = `https://app.theworshipinitiative.com/songs/${processedSong}/instrument/tutorials#song`;
+            var url = `https://psallo.theworshipinitiative.com/home/songs/${processedSong}/chords`;
         document.querySelector("a").setAttribute("href", url);
     }
 }
