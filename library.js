@@ -113,6 +113,9 @@ export const songLibrary = [
     {album: "Psalms From the Well Volume 2",
     songsArray: ["As For Me (Psalm 73)", "Teach Me to Number My Days (Psalm 90)", "Be Still (Psalm 46)", "My Soul (Psalm 62)", "Praise Him Again (Psalm 42)", "God of Jacob (Psalm 24)", "Take Heart(Psalm 27)", "The Lord is My Light (Psalm 27)", "Yahweh, the Lord (Psalm 145)"]
     },
+    {album: "Psalms From the Well Volume 3",
+    songsArray: ["Oh My Soul, Bless The Lord (Psalm 103)", "Revive Us Again (Psalm 44)", "Save Me (Psalm 3)", "Steadfast Love (Psalm 33)", "Satisfied (Psalm 63)", "My Soul (Psalm 62) [Studio Version]", "Yahweh (Salmo 8)"]
+    },
     {album: "Worship Initiative Christmas Volume 2",
     songsArray: ["Come Thou Long Expected Jesus", "Joy to the World (Joyful, Joyful)", "Hark the Herald Angels Sing", "O Little Town of Bethlehem", "Breath of Heaven", "Face of God", "What Child is This", "Away In a Manger", "Winter Snow", "It Came Upon A Midnight Clear"]
     },
@@ -147,7 +150,7 @@ export const songLibrary = [
     songsArray: ["Come Thou Fount of Every Blessing", "Turn Your Eyes Upon Jesus", "All Creatures of Our God and King", "Be Thou My Vision", "To God Be the Glory", "How Great Thou Art", "Crown Him (Majesty)"]
     },
     {album: "Singles",
-    songsArray: ["Let All Mortal Flesh Keep Silence", "Savior of the Nations of Come", "All Glory Be To Christ", "Praise Upon Praise", "Nothing But the Blood", "Like No Other", "O Come All Ye Faithful (His Name Shall Be)", "Triune God"]
+    songsArray: ["Let All Mortal Flesh Keep Silence", "Savior of the Nations of Come", "All Glory Be To Christ", "Praise Upon Praise", "Nothing But the Blood", "Like No Other", "O Come All Ye Faithful (His Name Shall Be)", "Triune God", "Only Christ"]
     },
     {album: "Watermark Worship Channel",
     songsArray: ["Only Christ", "You've Already Won (Live)", "In Christ Alone [Hymns]", "Is He Worthy", "All Sufficient Merit", "O  Praise The Name (Anástasis)", "Bless God", "Holy Forever", "Who Else"]
@@ -175,5 +178,11 @@ export const songLibrary = [
     },
     {album: "The Worship Initiative Volume 31",
      songsArray: ["Christ the Lord is Risen Today - Acoustic (Live)","Who Else - Acoustic (Live)", "His Glory and My Good","God With Us", "All Glory Be To Christ","He Who Is To Come", "I Believe", "Goodbye Yesterday"]
+    },
+    {album: "Vintage 2",
+     songsArray: ["I Will Call Upon the Lord","One Pure and Holy Passion", "It's So Nice to Get to Know You", "Grace Flows Down", "Thank You, Lord","More Precious Than Silver / I Sing Praises", "Thy Word / Where Else Would I Go", "Break Every Chain", "In the Light", "Creed", "Beautiful Scandalous Night"]
+    },
+    {album: "Behold & Believe",
+     songsArray: ["Turn Your Eyes Upon Jesus", "Abide", "You've Already Won", "Behold Him", "Psalm 34 (Taste and See)", "Promises", "Psalm 23 (Surely Goodness, Surely Mercy)", "Before the Throne of God Above", "Goddness of God", "You Said I Am (Behold and Believe)"]
     },
 ]
