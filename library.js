@@ -147,7 +147,7 @@ export const songLibrary = [
     songsArray: ["Come Thou Fount of Every Blessing", "Turn Your Eyes Upon Jesus", "All Creatures of Our God and King", "Be Thou My Vision", "To God Be the Glory", "How Great Thou Art", "Crown Him (Majesty)"]
     },
     {album: "Singles",
-    songsArray: ["Let All Mortal Flesh Keep Silence", "Savior of the Nations of Come", "All Glory Be To Christ"]
+    songsArray: ["Let All Mortal Flesh Keep Silence", "Savior of the Nations of Come", "All Glory Be To Christ", "Praise Upon Praise", "Nothing But the Blood", "Like No Other", "O Come All Ye Faithful (His Name Shall Be)", "Triune God"]
     },
     {album: "Watermark Worship Channel",
     songsArray: ["Only Christ", "You've Already Won (Live)", "In Christ Alone [Hymns]", "Is He Worthy", "All Sufficient Merit", "O  Praise The Name (Anástasis)", "Bless God", "Holy Forever", "Who Else"]
@@ -172,5 +172,8 @@ export const songLibrary = [
     },
     {album: "Hymns Volume 2",
      songsArray: ["Oh Lord Almighty","All Hail The Power of Jesus Name", "Praise To the Lord (Joyful, Joyful)","Power of the Cross", "Be Thou My Vision (Lord You Are)","Crown Him With Many Crowns", "Turn Your Eyes Upon Jesus (Amazing Grace)","My Jesus I Love Thee", "Living Waters (As the Deer)", "Come Behold the Wondrous Mystery"]
+    },
+    {album: "The Worship Initiative Volume 31",
+     songsArray: ["Christ the Lord is Risen Today - Acoustic (Live)","Who Else - Acoustic (Live)", "His Glory and My Good","God With Us", "All Glory Be To Christ","He Who Is To Come", "I Believe", "Goodbye Yesterday"]
     },
 ]
