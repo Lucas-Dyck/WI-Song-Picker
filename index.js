@@ -61,6 +61,18 @@ function handleClick(songLibrary) {
             if (choice.album === "We Sing to You, Jesus (Carols for Worship)") {
                 processedSong += "-we-sing-to-you-jesus";
             }
+            if(choice.album === "Singles" && song.choice === "Let All Mortal Flesh Keep Silence") {
+                song.album === "Advent";
+            }
+            if(choice.album === "Singles" && song.choice === "Savior of the Nations Come") {
+                song.album === "Advent, No. 2";
+            }
+            if(choice.album === "Singles" && song.choice === "All Glory Be To Christ") {
+                song.album === "All Glory Be To Christ - Single";
+            }
+            if(choice.album === "Singles" && song.choice === "Who Else") {
+                song.album === "Who Else - Single";
+            }
         
             var url = `https://psallo.theworshipinitiative.com/home/songs/${processedSong}/chords`;
         document.querySelector("a").setAttribute("href", url);
