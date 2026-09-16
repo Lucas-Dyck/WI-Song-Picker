@@ -34,7 +34,7 @@ function handleClick(songLibrary) {
     processURL(choice);
     
     function processURL(choice) {
-        let processedSong = choice.song.replace(/[\/:',()[.]- ]/g, '-').toLowerCase();
+        let processedSong = choice.song.replace(/[\/:',()[\]\-. ]/g, '-').toLowerCase();
         switch (processedSong) {
             case "forever-we-sing-hallelujah":
                 processedSong = "forever-we-sing-halleluia";
@@ -55,6 +55,7 @@ function handleClick(songLibrary) {
             if (choice.song === "O Holy Night" && choice.album === "We Sing to You, Jesus (Carols for Worship)") {
                 processedSong += "-we-sing-to-you-jesus";
             }
+        
             var url = `https://psallo.theworshipinitiative.com/home/songs/${processedSong}/chords`;
         document.querySelector("a").setAttribute("href", url);
     }
