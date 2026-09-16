@@ -146,14 +146,8 @@ export const songLibrary = [
     {album: "Worship Initiative Hymns Volume 2",
     songsArray: ["Come Thou Fount of Every Blessing", "Turn Your Eyes Upon Jesus", "All Creatures of Our God and King", "Be Thou My Vision", "To God Be the Glory", "How Great Thou Art", "Crown Him (Majesty)"]
     },
-    {album: "Advent",
-    songsArray: ["Let All Mortal Flesh Keep Silence"]
-    },
-    {album: "Advent No. 2",
-    songsArray: ["Savior of the Nations of Come"]
-    },
-    {album: "All Glory Be To Christ",
-    songsArray: ["All Glory Be To Christ"]
+    {album: "Singles",
+    songsArray: ["Let All Mortal Flesh Keep Silence", "Savior of the Nations of Come", "All Glory Be To Christ"]
     },
     {album: "Watermark Worship Channel",
     songsArray: ["Only Christ", "You've Already Won (Live)", "In Christ Alone [Hymns]", "Is He Worthy", "All Sufficient Merit", "O  Praise The Name (Anástasis)", "Bless God", "Holy Forever", "Who Else"]
