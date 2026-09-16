@@ -52,7 +52,13 @@ function handleClick(songLibrary) {
             if (choice.song === "All Hail King Jesus" && choice.album === "The Worship Initiative Volume 18") {
                 processedSong += "-vol-18";
             }
-            if (choice.song === "O Holy Night" && choice.album === "We Sing to You, Jesus (Carols for Worship)") {
+            if (choice.song === "You've Already Won" && choice.album === "Behold & Believe") {
+                processedSong += "behold-and-believe";
+            }
+            if (choice.song === "You've Already Won [Live]" && choice.album === "Sunday Setlist #2") {
+                processedSong += "-ss2";
+            }
+            if (choice.album === "We Sing to You, Jesus (Carols for Worship)") {
                 processedSong += "-we-sing-to-you-jesus";
             }
         
