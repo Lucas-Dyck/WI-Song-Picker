@@ -34,7 +34,7 @@ function handleClick(songLibrary) {
     processURL(choice);
     
     function processURL(choice) {
-        let processedSong = choice.song.replace(/[\/:',()[\]\-. ]/g, '-').replace(/-+/g, '-').replace(/-+$/g, '');.toLowerCase();
+        let processedSong = choice.song.replace(/[\/:',()[\]\-. ]/g, '-').replace(/-+/g, '-').replace(/-+$/g, '').toLowerCase();
         switch (processedSong) {
             case "forever-we-sing-hallelujah":
                 processedSong = "forever-we-sing-halleluia";
