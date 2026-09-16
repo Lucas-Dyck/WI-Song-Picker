@@ -67,11 +67,8 @@ function handleClick(songLibrary) {
             if(choice.album === "Singles" && song.choice === "Savior of the Nations Come") {
                 song.album === "Advent, No. 2";
             }
-            if(choice.album === "Singles" && song.choice === "All Glory Be To Christ") {
-                song.album === "All Glory Be To Christ - Single";
-            }
-            if(choice.album === "Singles" && song.choice === "Who Else") {
-                song.album === "Who Else - Single";
+            else if (choice.album === "Singles") {
+                song.album === choice.song + " - Single"
             }
         
             var url = `https://psallo.theworshipinitiative.com/home/songs/${processedSong}/chords`;
