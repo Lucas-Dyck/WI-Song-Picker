@@ -149,7 +149,7 @@ export const songLibrary = [
     {album: "Worship Initiative Hymns Volume 2",
     songsArray: ["Come Thou Fount of Every Blessing", "Turn Your Eyes Upon Jesus", "All Creatures of Our God and King", "Be Thou My Vision", "To God Be the Glory", "How Great Thou Art", "Crown Him (Majesty)"]
     },
-    {album: "Singles",
+    {album: "Single",
     songsArray: ["Let All Mortal Flesh Keep Silence", "Savior of the Nations of Come", "All Glory Be To Christ", "Praise Upon Praise", "Nothing But the Blood", "Like No Other", "O Come All Ye Faithful (His Name Shall Be)", "Triune God", "Only Christ"]
     },
     {album: "Watermark Worship Channel",
