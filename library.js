@@ -183,6 +183,6 @@ export const songLibrary = [
      songsArray: ["I Will Call Upon the Lord","One Pure and Holy Passion", "It's So Nice to Get to Know You", "Grace Flows Down", "Thank You, Lord","More Precious Than Silver / I Sing Praises", "Thy Word / Where Else Would I Go", "Break Every Chain", "In the Light", "Creed", "Beautiful Scandalous Night"]
     },
     {album: "Behold & Believe",
-     songsArray: ["Turn Your Eyes Upon Jesus", "Abide", "You've Already Won", "Behold Him", "Psalm 34 (Taste and See)", "Promises", "Psalm 23 (Surely Goodness, Surely Mercy)", "Before the Throne of God Above", "Goddness of God", "You Said I Am (Behold and Believe)"]
+     songsArray: ["Turn Your Eyes Upon Jesus", "Abide", "You've Already Won", "Behold Him", "Psalm 34 (Taste and See)", "Promises", "Psalm 23 (Surely Goodness, Surely Mercy)", "Before the Throne of God Above", "Goodness of God", "You Said I Am (Behold and Believe)"]
     },
 ]
