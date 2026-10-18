@@ -58,7 +58,7 @@ div[id=header] {
 
 button {
 	padding:10px;
-	color: black;
+	color: white;
 	font-family: Avenir, sans-serif;
 	font-weight: 700;
 	font-size:1.5rem;
@@ -73,8 +73,9 @@ button {
 }
 
 button:hover {
-	border: 5px solid rgb(150,109,51);
-	transition: 0.1s;
+	transform: scale(1.1);
+	box-shadow: 0px 0px 8px black;
+	transition: 100ms;
 
 }
 
