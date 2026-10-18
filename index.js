@@ -67,6 +67,9 @@ function handleClick(songLibrary) {
             if(choice.album === "Singles" && song.choice === "Savior of the Nations Come") {
                 song.album === "Advent, No. 2";
             }
+            if(choice.album === "Volume One" && song.choice === "In Christ Alone") {
+                processedSong += "-vol-1";
+            }
             else if (choice.album === "Singles") {
                 song.album === choice.song + " - Single"
             }
