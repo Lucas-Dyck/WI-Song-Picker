@@ -106,10 +106,10 @@ button:active {
 	margin-left: 50px;
 }
 #display {
-	border: 3px solid rgb(150,109,51);
 	padding: 50px;
 	margin: 30px;
 	border-radius: 20px;
+	background-color: white;
 }
 @media (max-width:950px) {
 	#pickfrom {
