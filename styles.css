@@ -1,27 +1,3 @@
-body {
-	margin:0px;
-	margin-top:150px;
-	align-items: center;
-	font-family: Avenir, sans-serif;
-    background-color: rgb(226, 222, 213);
-    color:rgb(150,109,51);
-}
-
-#hero {
-	display: flex;
-	justify-content: center;
-	margin: 60px 30px;
-	font-size: 1.5rem;
-}
-
-#hero>div {
-	width: 50%;
-	font-size: 1.7rem;
-}
-
-h1 {
-	margin: 0px 0px 0px 30px;
-}
 div[id=header] {
 	display: flex;
 	align-items: center;
@@ -32,6 +8,26 @@ div[id=header] {
 	top:0;
 	color: rgb(150,109,51);
 	font-family: 'Gill Sans', sans-serif;
+}
+
+body {
+	display: flex;
+	margin: 150px 80px 0px 80px;
+	align-items: center;
+	font-family: Avenir, sans-serif;
+    background-color: rgb(226, 222, 213);
+    color:rgb(150,109,51);
+}
+
+#hero {
+	display: flex;
+	text-align: center;
+	margin: 60px 30px;
+	font-size: 1.5rem;
+}
+
+h1 {
+	margin: 0px 0px 0px 30px;
 }
 
 #song {
