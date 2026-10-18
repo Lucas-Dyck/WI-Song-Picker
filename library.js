@@ -150,7 +150,7 @@ export const songLibrary = [
     songsArray: ["Come Thou Fount of Every Blessing", "Turn Your Eyes Upon Jesus", "All Creatures of Our God and King", "Be Thou My Vision", "To God Be the Glory", "How Great Thou Art", "Crown Him (Majesty)"]
     },
     {album: "Single",
-    songsArray: ["Let All Mortal Flesh Keep Silence", "Savior of the Nations of Come", "All Glory Be To Christ", "Praise Upon Praise", "Nothing But the Blood", "Like No Other", "O Come All Ye Faithful (His Name Shall Be)", "Triune God", "Only Christ"]
+    songsArray: ["Let All Mortal Flesh Keep Silence", "Savior of the Nations of Come", "All Glory Be To Christ", "Nothing But the Blood", "Like No Other", "O Come All Ye Faithful (His Name Shall Be)", "Triune God", "Only Christ", "Risen King Medley", "Amazing Grace (250th Anniversary Edition)", "Sing Out For Joy"]
     },
     {album: "Watermark Worship Channel",
     songsArray: ["Only Christ", "You've Already Won (Live)", "In Christ Alone [Hymns]", "Is He Worthy", "All Sufficient Merit", "O  Praise The Name (Anástasis)", "Bless God", "Holy Forever", "Who Else"]
@@ -184,5 +184,8 @@ export const songLibrary = [
     },
     {album: "Behold & Believe",
      songsArray: ["Turn Your Eyes Upon Jesus", "Abide", "You've Already Won", "Behold Him", "Psalm 34 (Taste and See)", "Promises", "Psalm 23 (Surely Goodness, Surely Mercy)", "Before the Throne of God Above", "Goodness of God", "You Said I Am (Behold and Believe)"]
+    },
+    {album: "Psalms Vol. 3",
+     songsArray: ["Praise Upon Praise", "Hiding Place (Psalm 32)","The Highest Praise (Psalm 95)","I Delight In You (Psalm 1)","Salvation Belongs to You (Psalm 3)","As Loud as He Is Worthy (Psalm 47)","Great and Greatly to Be Praised (Psalm 145)","My Soul (Psalm 62)","Yahweh, The Lord (Psalm 145)", "I Will Wait (Isaiah 40"]
     },
 ]
