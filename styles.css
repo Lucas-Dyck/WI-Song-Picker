@@ -12,7 +12,7 @@ div[id=header] {
 
 body {
 	display: flex;
-	margin: 150px 80px 0px 80px;
+	padding: 50px 20px 0px 20px;
 	align-items: center;
 	font-family: Avenir, sans-serif;
     background-color: rgb(226, 222, 213);
