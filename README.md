@@ -1,2 +1,2 @@
-#Worship-Song-Picker
+# Worship-Song-Picker
 A lightweight program that picks randomly from a library of Psallo worship songs. Use this program to boost your worship instrument practice, or to broaden your worship song horizons, and play worship songs you've never played before. This program is catered towards the Psallo song library, but any music software website like Multitracks.com, iTunes, Music, or Spotify, works for the general song picking if the songs that are picked are typed into the search bars of these sites. Note that the Link Button will only work for the Psallo.com.
