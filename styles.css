@@ -1,3 +1,12 @@
+body {
+	display: flex;
+	margin:0px;
+	align-items: center;
+	font-family: Avenir, sans-serif;
+    background-color: rgb(226, 222, 213);
+    color:rgb(150,109,51);
+}
+
 div[id=header] {
 	display: flex;
 	align-items: center;
@@ -8,15 +17,6 @@ div[id=header] {
 	top:0;
 	color: rgb(150,109,51);
 	font-family: 'Gill Sans', sans-serif;
-}
-
-body {
-	display: flex;
-	padding: 50px 20px 0px 20px;
-	align-items: center;
-	font-family: Avenir, sans-serif;
-    background-color: rgb(226, 222, 213);
-    color:rgb(150,109,51);
 }
 
 #hero {
