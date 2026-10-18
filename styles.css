@@ -7,11 +7,11 @@ body {
     color:rgb(150,109,51);
 }
 
-#hero {
-	margin: 50px;
-	display: rgb(150,109,51);
-	font-size: 1.7rem;
+p#hero {
+	display: flex;
 	justify-content: center;
+	margin: 30px;
+	font-size: 1.5rem;
 }
 
 #hero>div {
