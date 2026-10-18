@@ -76,11 +76,8 @@ button:hover {
 
 button:active {
 	border: 5px solid gold;
-	color: rgb(150,109,51);
 	box-sizing: border-box;
-	transform: scale(1.08);
 	transition: 0.1s;
-	box-shadow: 1px 1px 8px white;
 }
 
 .logo {
