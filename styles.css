@@ -8,8 +8,10 @@ body {
 }
 
 #hero {
-	margin: 190px 0px 100px 50px;
+	margin: 50px;
 	display: rgb(150,109,51);
+	font-size: 1.7rem;
+	justify-content: center;
 }
 
 #hero>div {
