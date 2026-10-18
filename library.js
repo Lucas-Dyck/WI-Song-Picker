@@ -3,7 +3,7 @@ export const songLibrary = [
     songsArray: ["God of Ages Past", "Seas of Crimson", "This I Believe (The Creed)", "Scandal of Grace", "Forever (We Sing Hallelujah)", "Jesus Loves Me", "Christ Be All Around Me", "You Make Me Brave", "Great Are You Lord", "Man of Sorrows"]
     },
     {album: "The Worship Initiative Volume One",
-    songsArray: ["Oceans", "This is Amazing Grace", "All the Poor and Powerless", "Lord I Need You", "In Christ Alone (Passion)", "Beautiful Things", "Come Thou Fount (Vol. 1)", "10,000 Reasons", "Whom Shall I Fear (God of Angel Armies)", "Happy Day"]
+    songsArray: ["Oceans", "This is Amazing Grace", "All the Poor and Powerless", "Lord I Need You", "In Christ Alone", "Beautiful Things", "Come Thou Fount (Vol. 1)", "10,000 Reasons", "Whom Shall I Fear (God of Angel Armies)", "Happy Day"]
     },
     {album: "The Worship Initiative Volume Two", 
     songsArray:["Heart Starts Beating", "Hosanna (Praise Is Rising)", "Forever Reign", "Mercy", "How Great is Our God", "You Are My All in All", "We Exalt Thee", "Our God", "Open the Eyes of my Heart",  "Better is One Day"]
