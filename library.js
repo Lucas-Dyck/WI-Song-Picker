@@ -1,4 +1,4 @@
-export const songLibrary = [
+const songLibrary = [
     {album: "Shane and Shane: The Worship Initiative",
     songsArray: ["God of Ages Past", "Seas of Crimson", "This I Believe (The Creed)", "Scandal of Grace", "Forever (We Sing Hallelujah)", "Jesus Loves Me", "Christ Be All Around Me", "You Make Me Brave", "Great Are You Lord", "Man of Sorrows"]
     },
@@ -174,7 +174,7 @@ export const songLibrary = [
      songsArray: ["In Christ Alone [Live]", "Come Thou Fount (Above All Else) [Live]", "There Is A Fountain [Live]", "He Will Hold Me Fast [Live]", "Holy, Holy, Holy [Live]", "My Worth Is Not In What I Own [Live]", "Tis So Sweet [Live]", "The Lord Is My Salvation [Live]", "I Will Wait For You (Psalm 130) [Live]", "Amazing Grace (My Chains Are Gone) [Live]", "His Mercy Is More [Live]", "Is He Worthy [Live]"]
     },
     {album: "Hymns Volume 2",
-     songsArray: ["Oh Lord Almighty","All Hail The Power of Jesus Name", "Praise To the Lord (Joyful, Joyful)","Power of the Cross", "Be Thou My Vision (Lord You Are)","Crown Him With Many Crowns", "Turn Your Eyes Upon Jesus (Amazing Grace)","My Jesus I Love Thee", "Living Waters (As the Deer)", "Come Behold the Wondrous Mystery"]
+     songsArray: ["Oh Lord Almighty","All Hail The Power of Jesus Name (Crown Him With Many Crowns)", "Praise To the Lord (Joyful, Joyful)","Power of the Cross", "Be Thou My Vision (Lord You Are)","Crown Him With Many Crowns", "Turn Your Eyes Upon Jesus (Amazing Grace)","My Jesus I Love Thee", "Living Waters (As the Deer)", "Come Behold the Wondrous Mystery"]
     },
     {album: "The Worship Initiative Volume 31",
      songsArray: ["Christ the Lord is Risen Today - Acoustic (Live)","Who Else - Acoustic (Live)", "His Glory and My Good","God With Us", "All Glory Be To Christ","He Who Is To Come", "I Believe", "Goodbye Yesterday"]
