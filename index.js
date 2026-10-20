@@ -20,7 +20,7 @@ function pickSong(songLibrary){
     if (song === album) {
         album += " - Single";
     }
-    return {song: song, album: album, [Symbol.toStringTag]: "Song Choice"};
+    return {song: song, album: album, [Symbol.toStringTag]: "Song Choice", link: ""};
 }
 button.addEventListener("click", function() {
     handleClick(songLibrary);
@@ -74,6 +74,7 @@ function handleClick(songLibrary) {
                 song.album === choice.song + " - Single"
             }
         
+            choice.link = processedSong;
             var url = `https://psallo.theworshipinitiative.com/home/songs/${processedSong}/chords`;
         document.querySelector("a").setAttribute("href", url);
     }
